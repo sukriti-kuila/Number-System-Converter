@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(81, 131, 181, 1) 53%, rgba(0, 212, 255, 1) 100%);
+    letter-spacing: 1px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 400px;
+    width: 520px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+
+}
+
+#from {
+    position: absolute;
+    top: 24.3%;
+    left: 19%;
+}
+
+.fromValue {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+#to {
+    position: absolute;
+    top: 24%;
+    right: 5%;
+}
+
+.toValue {
+    position: absolute;
+    top: 24.7%;
+    right: 33%;
+}
+
+#num {
+    position: absolute;
+    top: 44.4%;
+    left: 34%;
+}
+
+#input {
+    position: absolute;
+    top: 46%;
+    left: 17.2%;
+}
+
+select {
+    width: 130px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid tomato;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    border: 1px solid darkgreen;
+    text-align: center;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#display {
+    position: absolute;
+    top: 59.4%;
+    left: 34%;
+    width: 208px;
+    height: 27px;
+    border: 1px solid darkred;
+    border-radius: 1px;
+    background-color: white;
+    word-wrap: break-word;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#output {
+    position: absolute;
+    top: 60.5%;
+    left: 16%;
+}
+
+button {
+    position: absolute;
+    top: 82%;
+    left: 38.5%;
+    border: none;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+    color: blueviolet
+}
+
+button:hover {
+    border: 1px solid black;
+}
+
+button:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+        -4px -4px 12px #ffffff;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Converter</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="from-to">
+            <label class="fromValue"><b>FROM</b></label>
+            <select name="" id="from">
+                <option value="Binary">Binary</option>
+                <option value="Decimal">Decimal</option>
+                <option value="Octal">Octal</option>
+            </select>
+            <label class="toValue"> <b>TO</b> </label>
+            <select name="" id="to">
+                <option value="Binary">Binary</option>
+                <option value="Decimal" selected>Decimal</option>
+                <option value="Octal">Octal</option>
+            </select>
+        </div>
+
+        <div>
+            <span id="input"><b> INPUT </b></span>
+            <input type="number" id="num">
+        </div>
+        <div>
+            <span id="output"><b>OUTPUT</b></span>
+            <div id="display"> </div>
+        </div>
+
+        <button onclick="calculate()">Calculate</button>
+
+    </div>
+
+</body>
+<script src="logic.js"></script>
+
+</html>
