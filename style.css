@@ -6,6 +6,7 @@ body {
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(81, 131, 181, 1) 53%, rgba(0, 212, 255, 1) 100%);
     letter-spacing: 1px;
+    zoom: 105%;
 }
 
 .container {
@@ -63,7 +64,8 @@ select {
     text-align: center;
     border: 1px solid tomato;
     border-radius: 2px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 input {
